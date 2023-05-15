@@ -89,7 +89,6 @@ def getTransferMsg(req):
     for t in chain_data:
         for tran in eval(t["transactions"]):
             tof = TransferDate.objects.filter(transactionHash=tran.hex())
-            print(tof)
             if not tof:
                 w3 = Web3(Web3.HTTPProvider('http://127.0.0.1:8545'))
                 trs = w3.eth.get_transaction_receipt(tran)
