@@ -22,7 +22,6 @@ def getChainMsg(req):
     num = w3.eth.get_block('latest').number
     if int(number) < int(num):
         for c in range(int(number)+1, int(num)):
-            print(c)
             chainMsg = w3.eth.get_block(c)
             chain = ChainDate()
             chain.baseFeePerGas = chainMsg["baseFeePerGas"]
@@ -55,12 +54,6 @@ def getChainMsg(req):
                         w3 = Web3(Web3.HTTPProvider('http://127.0.0.1:8545'))
                         trs = w3.eth.get_transaction_receipt(tran)
                         num = trs["blockNumber"]
-                        #chain = TransferDate.objects.last()
-                        #if not chain:
-                        #    number = 0
-                        #else:
-                        #    number = chain.blockNumber
-                        #if num > int(number):
                         tr = w3.eth.get_transaction(tran)
                         value = tr["value"]
                         timestamp = w3.eth.get_block(num).timestamp
@@ -177,7 +170,6 @@ def transactionList(req):
             num = TransferDate.objects.filter(transactionHash=hash).values("id")[0]["id"]
             n = TransferDate.objects.count()
             trans = TransferDate.objects.values("transactionHash", "blockNumber", "timestamp","id").order_by("-id")[n-num+1:n-num+16]
-           # trans = TransferDate.objects.values("transactionHash", "blockNumber", "timestamp").order_by("-id")[n*15:(n+1)*15]
             for tran in trans:
                 blockNumber = tran["blockNumber"]
                 transactionHash = tran["transactionHash"]
