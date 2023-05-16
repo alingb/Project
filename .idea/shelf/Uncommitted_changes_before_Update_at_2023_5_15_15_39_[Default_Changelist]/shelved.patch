@@ -1,0 +1,221 @@
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1684134934764)
++++ b/.idea/.gitignore	(date 1684134934764)
+@@ -0,0 +1,8 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Datasource local storage ignored files
++/dataSources/
++/dataSources.local.xml
++# Editor-based HTTP Client requests
++/httpRequests/
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1684134915456)
++++ b/.idea/misc.xml	(date 1684134915456)
+@@ -0,0 +1,4 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.6 (venv)" project-jdk-type="Python SDK" />
++</project>
+\ No newline at end of file
+Index: .idea/inspectionProfiles/Project_Default.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/Project_Default.xml b/.idea/inspectionProfiles/Project_Default.xml
+new file mode 100644
+--- /dev/null	(date 1684134961230)
++++ b/.idea/inspectionProfiles/Project_Default.xml	(date 1684134961230)
+@@ -0,0 +1,10 @@
++<component name="InspectionProjectProfileManager">
++  <profile version="1.0">
++    <option name="myName" value="Project Default" />
++    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
++      <Languages>
++        <language minSize="56" name="Python" />
++      </Languages>
++    </inspection_tool>
++  </profile>
++</component>
+\ No newline at end of file
+Index: .idea/Project.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/Project.iml b/.idea/Project.iml
+new file mode 100644
+--- /dev/null	(date 1684135246457)
++++ b/.idea/Project.iml	(date 1684135246457)
+@@ -0,0 +1,36 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="PYTHON_MODULE" version="4">
++  <component name="FacetManager">
++    <facet type="django" name="Django">
++      <configuration>
++        <option name="rootFolder" value="$MODULE_DIR$" />
++        <option name="settingsModule" value="Project/settings.py" />
++        <option name="manageScript" value="$MODULE_DIR$/manage.py" />
++        <option name="environment" value="&lt;map/&gt;" />
++        <option name="doNotUseTestRunner" value="false" />
++        <option name="trackFilePattern" value="migrations" />
++      </configuration>
++    </facet>
++  </component>
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="library" name="Django Lib" level="project" />
++  </component>
++  <component name="PyDocumentationSettings">
++    <option name="format" value="PLAIN" />
++    <option name="myDocStringFormat" value="Plain" />
++  </component>
++  <component name="TemplatesService">
++    <option name="TEMPLATE_CONFIGURATION" value="Django" />
++    <option name="TEMPLATE_FOLDERS">
++      <list>
++        <option value="$MODULE_DIR$/venv/Lib/site-packages/django/forms/templates" />
++      </list>
++    </option>
++  </component>
++  <component name="TestRunnerService">
++    <option name="PROJECT_TEST_RUNNER" value="pytest" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1684134961896)
++++ b/.idea/modules.xml	(date 1684134961896)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/Project.iml" filepath="$PROJECT_DIR$/.idea/Project.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/libraries/Django_Lib.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Django_Lib.xml b/.idea/libraries/Django_Lib.xml
+new file mode 100644
+--- /dev/null	(date 1684134962008)
++++ b/.idea/libraries/Django_Lib.xml	(date 1684134962008)
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Django Lib">
++    <CLASSES>
++      <root url="file://$PROJECT_DIR$/venv/Lib/site-packages" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/inspectionProfiles/profiles_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml
+new file mode 100644
+--- /dev/null	(date 1684134962087)
++++ b/.idea/inspectionProfiles/profiles_settings.xml	(date 1684134962087)
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <settings>
++    <option name="USE_PROJECT_PROFILE" value="false" />
++    <version value="1.0" />
++  </settings>
++</component>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1684134962164)
++++ b/.idea/vcs.xml	(date 1684134962164)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: mydb/views.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import json\r\n\r\nfrom django.shortcuts import render\r\n\r\n# Create your views here.\r\n\r\nfrom django.forms import model_to_dict\r\nfrom mydb.models import ChainDate, TransferDate\r\nfrom django.http import HttpResponse\r\nfrom web3 import Web3\r\nfrom hexbytes import HexBytes\r\nfrom django.db.models import Q\r\n\r\n\r\ndef getChainMsg(req):\r\n    w3 = Web3(Web3.HTTPProvider('http://127.0.0.1:8545'))\r\n    chain = ChainDate.objects.last()\r\n    if not chain:\r\n        number = 0\r\n    else:\r\n        number = chain.number\r\n    num = w3.eth.get_block('latest').number\r\n    if int(number) < int(num):\r\n        for c in range(int(number)+1, int(num)):\r\n            print(c)\r\n            chainMsg = w3.eth.get_block(c)\r\n            chain = ChainDate()\r\n            chain.baseFeePerGas = chainMsg[\"baseFeePerGas\"]\r\n            chain.difficulty = chainMsg[\"difficulty\"]\r\n            chain.extraData = chainMsg[\"extraData\"].hex()\r\n            chain.gasLimit = chainMsg[\"gasLimit\"]\r\n            chain.gasUsed = chainMsg[\"gasUsed\"]\r\n            chain.hash = chainMsg[\"hash\"].hex()\r\n            chain.logsBloom = chainMsg[\"logsBloom\"].hex()\r\n            chain.miner = chainMsg[\"miner\"]\r\n            chain.mixHash = chainMsg[\"mixHash\"].hex()\r\n            chain.nonce = chainMsg[\"nonce\"].hex()\r\n            chain.number = chainMsg[\"number\"]\r\n            chain.parentHash = chainMsg[\"parentHash\"].hex()\r\n            chain.receiptsRoot = chainMsg[\"receiptsRoot\"].hex()\r\n            chain.sha3Uncles = chainMsg[\"sha3Uncles\"].hex()\r\n            chain.size = chainMsg[\"size\"]\r\n            chain.stateRoot = chainMsg[\"stateRoot\"].hex()\r\n            chain.timestamp = chainMsg[\"timestamp\"]\r\n            chain.totalDifficulty = chainMsg[\"totalDifficulty\"]\r\n            trs = chainMsg[\"transactions\"]\r\n            chain.transactions = trs\r\n            chain.transactionsRoot = chainMsg[\"transactionsRoot\"].hex()\r\n            chain.uncles = chainMsg[\"uncles\"]\r\n            chain.save()\r\n            if trs:\r\n                for tran in trs:\r\n                    tof = TransferDate.objects.filter(transactionHash=tran.hex())\r\n                    if not tof:\r\n                        w3 = Web3(Web3.HTTPProvider('http://127.0.0.1:8545'))\r\n                        trs = w3.eth.get_transaction_receipt(tran)\r\n                        num = trs[\"blockNumber\"]\r\n                        #chain = TransferDate.objects.last()\r\n                        #if not chain:\r\n                        #    number = 0\r\n                        #else:\r\n                        #    number = chain.blockNumber\r\n                        #if num > int(number):\r\n                        tr = w3.eth.get_transaction(tran)\r\n                        value = tr[\"value\"]\r\n                        timestamp = w3.eth.get_block(num).timestamp\r\n                        trans = TransferDate()\r\n                        trans.blockHash = trs[\"blockHash\"].hex()\r\n                        trans.blockNumber = trs[\"blockNumber\"]\r\n                        trans.contractAddress = trs[\"contractAddress\"]\r\n                        trans.cumulativeGasUsed = trs[\"cumulativeGasUsed\"]\r\n                        trans.effectiveGasPrice = trs[\"effectiveGasPrice\"]\r\n                        trans.From = trs[\"from\"]\r\n                        trans.gasUsed = trs[\"gasUsed\"]\r\n                        trans.logs = trs[\"logs\"]\r\n                        trans.logsBloom = trs[\"logsBloom\"].hex()\r\n                        trans.status = trs[\"status\"]\r\n                        trans.to = trs[\"to\"]\r\n                        trans.transactionHash = trs[\"transactionHash\"].hex()\r\n                        trans.transactionIndex = trs[\"transactionIndex\"]\r\n                        trans.type = trs[\"type\"]\r\n                        trans.value = value\r\n                        trans.timestamp = timestamp\r\n                        trans.save()\r\n    return HttpResponse(\"yes\")\r\n\r\n\r\ndef getTransferMsg(req):\r\n    last_num = TransferDate.objects.last()\r\n    if not last_num:\r\n        last_num = 0 \r\n    else:\r\n        last_num = last_num.blockNumber\r\n\r\n    chain_data = ChainDate.objects.filter(~Q(transactions=[])).filter(number__lte=last_num).order_by(\"number\").values(\"transactions\")\r\n    for t in chain_data:\r\n        for tran in eval(t[\"transactions\"]):\r\n            tof = TransferDate.objects.filter(transactionHash=tran.hex())\r\n            print(tof)\r\n            if not tof:\r\n                w3 = Web3(Web3.HTTPProvider('http://127.0.0.1:8545'))\r\n                trs = w3.eth.get_transaction_receipt(tran)\r\n                num = trs[\"blockNumber\"]\r\n                tr = w3.eth.get_transaction(tran)\r\n                value = tr[\"value\"]\r\n                timestamp = w3.eth.get_block(num).timestamp\r\n                trans = TransferDate()\r\n                trans.blockHash = trs[\"blockHash\"].hex()\r\n                trans.blockNumber = trs[\"blockNumber\"]\r\n                trans.contractAddress = trs[\"contractAddress\"]\r\n                trans.cumulativeGasUsed = trs[\"cumulativeGasUsed\"]\r\n                trans.effectiveGasPrice = trs[\"effectiveGasPrice\"]\r\n                trans.From = trs[\"from\"]\r\n                trans.gasUsed = trs[\"gasUsed\"]\r\n                trans.logs = trs[\"logs\"]\r\n                trans.logsBloom = trs[\"logsBloom\"].hex()\r\n                trans.status = trs[\"status\"]\r\n                trans.to = trs[\"to\"]\r\n                trans.transactionHash = trs[\"transactionHash\"].hex()\r\n                trans.transactionIndex = trs[\"transactionIndex\"]\r\n                trans.type = trs[\"type\"]\r\n                trans.value = value\r\n                trans.timestamp = timestamp\r\n                trans.save()\r\n    return HttpResponse(\"yes\")\r\n\r\n\r\ndef blockHeightList(req):\r\n    if req.method == \"GET\":\r\n        fromblock = req.GET.get(\"fromblock\", default=\"0\")\r\n        data_list = []\r\n        if int(fromblock) == 0:\r\n            chain = ChainDate.objects.values(\"number\", \"hash\", \"timestamp\", \"transactions\").order_by(\"-number\")[:15]\r\n            for block in chain:\r\n                number = block[\"number\"]\r\n                hash = block[\"hash\"]\r\n                timestamp = block[\"timestamp\"]\r\n                txs = len(eval(block[\"transactions\"]))\r\n                data_list.append({\"number\": number,\r\n                                  \"hash\": hash,\r\n                                  \"timestamp\": timestamp,\r\n                                  \"txs\": txs})\r\n        else:\r\n            n = int(fromblock)\r\n            num = ChainDate.objects.last().number\r\n            chain = ChainDate.objects.values(\"number\", \"hash\", \"timestamp\", \"transactions\").order_by(\"-number\")[num-n:num-n+15]\r\n            for block in chain:\r\n                number = block[\"number\"]\r\n                hash = block[\"hash\"]\r\n                timestamp = block[\"timestamp\"]\r\n                txs = len(eval(block[\"transactions\"]))\r\n                data_list.append({\"number\": number,\r\n                                  \"hash\": hash,\r\n                                  \"timestamp\": timestamp,\r\n                                  \"txs\": txs})\r\n        block_height = {\"result\": 1, \"data\": {\"data_list\": data_list}}\r\n    else:\r\n        block_height = {}\r\n    return HttpResponse(json.dumps(block_height))\r\n\r\n\r\ndef transactionList(req):\r\n    if req.method == \"GET\":\r\n        fromblock = req.GET.get(\"fromblock\", default=0)\r\n        data_list = []\r\n        if fromblock == 0:\r\n            trans = TransferDate.objects.values(\"transactionHash\", \"blockNumber\", \"timestamp\").order_by(\"-blockNumber\")[:15]\r\n            for tran in trans:\r\n                blockNumber = tran[\"blockNumber\"]\r\n                transactionHash = tran[\"transactionHash\"]\r\n                timestamp = tran[\"timestamp\"]\r\n                data_list.append({\"blockNumber\": blockNumber,\r\n                                  \"transactionHash\": transactionHash,\r\n                                  \"timestamp\": timestamp})\r\n        else:\r\n            hash = fromblock\r\n            num = TransferDate.objects.filter(transactionHash=hash).values(\"id\")[0][\"id\"]\r\n            n = TransferDate.objects.count()\r\n            trans = TransferDate.objects.values(\"transactionHash\", \"blockNumber\", \"timestamp\",\"id\").order_by(\"-id\")[n-num+1:n-num+16]\r\n           # trans = TransferDate.objects.values(\"transactionHash\", \"blockNumber\", \"timestamp\").order_by(\"-id\")[n*15:(n+1)*15]\r\n            for tran in trans:\r\n                blockNumber = tran[\"blockNumber\"]\r\n                transactionHash = tran[\"transactionHash\"]\r\n                timestamp = tran[\"timestamp\"]\r\n                data_list.append({\"blockNumber\": blockNumber,\r\n                                  \"transactionHash\": transactionHash,\r\n                                  \"timestamp\": timestamp})\r\n        transaction_list = {\"result\": 1, \"data\": {\"data_list\": data_list}}\r\n    else:\r\n         transaction_list = {}\r\n    return HttpResponse(json.dumps(transaction_list))\r\n\r\n\r\ndef homepageData(req):\r\n    last_chain = ChainDate.objects.last()\r\n    blochHeight = last_chain.number\r\n    number = blochHeight - 100\r\n    blocktimeAvg = (float(last_chain.timestamp) - float(ChainDate.objects.get(number=number).timestamp)) / 100\r\n    totalDifficulty = last_chain.difficulty\r\n    netHashrate = float(totalDifficulty) / float(blocktimeAvg)\r\n    homepage_data = {\"result\": 1,\r\n                     \"data\": {\"chain_brief\": {\"blochHeight\": blochHeight,\r\n                                              \"blocktimeAvg\": blocktimeAvg,\r\n                                              \"netHashrate\": netHashrate,\r\n                                              \"totalDifficulty\": totalDifficulty}}}\r\n    return HttpResponse(json.dumps(homepage_data))\r\n\r\n\r\ndef addressMsg(req):\r\n    if req.method == \"GET\":\r\n        address = req.GET.get(\"address\", default=\"\")\r\n        if address:\r\n            w3 = Web3(Web3.HTTPProvider('http://127.0.0.1:8545'))\r\n            amount_num = w3.eth.get_balance(address)\r\n            amount = float(w3.from_wei(amount_num, \"ether\"))\r\n            address_msg = {\"result\": 1,\r\n                           \"data\": {\"data\": {\"address\": address,\r\n                                             \"balance\": float(amount)}}}\r\n        else:\r\n            address_msg = {\"result\": 0, \"errno\": 102, \"data\": {}}\r\n    else:\r\n        address_msg = {\"result\": 0, \"errno\": 102, \"data\": {}}\r\n    return HttpResponse(json.dumps(address_msg))\r\n\r\n\r\ndef transactionListPage(req):\r\n    if req.method == \"GET\":\r\n        address = req.GET.get(\"address\", default=\"\")\r\n        if address:\r\n            trans = TransferDate.objects.filter(Q(From=address) | Q(to=address)).order_by(\"-blockNumber\")\r\n            trans_values = trans.values(\"blockNumber\", \"transactionHash\", \"status\", \"From\", \"timestamp\")\r\n            trans_list = []\r\n            for value in trans_values:\r\n                hash = value[\"transactionHash\"]\r\n                status = value[\"status\"]\r\n                blockHeight = value[\"blockNumber\"]\r\n                if value[\"From\"] == address:\r\n                    type = \"OUT\"\r\n                else:\r\n                    type = \"IN\"\r\n                timestamp = value[\"timestamp\"]\r\n                trans_list.append({\"timestamp\": timestamp,\r\n                                   \"type\": type,\r\n                                   \"blockHeight\": blockHeight,\r\n                                   \"hash\": hash,\r\n                                   \"status\": status})\r\n            transaction_list = {\"result\": 1, \"data\": {\"transactions\": trans_list}}\r\n        else:\r\n            transaction_list = {\"result\": 0, \"errno\": 102, \"data\": {}}\r\n    else:\r\n        transaction_list = {\"result\": 0, \"errno\": 102, \"data\": {}}\r\n    return HttpResponse(json.dumps(transaction_list))\r\n\r\n\r\ndef detailSearch(req):\r\n    if req.method == \"GET\":\r\n        keyworld = req.GET.get(\"keyworld\", default=\"\")\r\n        data = {\"transactions_data\": {}, \"address_data\": {}, \"block_date\": {}}\r\n        if keyworld:\r\n            if keyworld.isdigit():\r\n                chain = ChainDate.objects.filter(number=keyworld)\r\n                if chain:\r\n                    chain = chain.values()[0]\r\n                    number = chain[\"number\"]\r\n                    hash = chain[\"hash\"]\r\n                    timestamp = chain[\"timestamp\"]\r\n                    miner = chain[\"miner\"]\r\n                    trs = eval(chain[\"transactions\"])\r\n                    txs = len(trs)\r\n                    transactions = []\r\n                    for tr in trs:\r\n                        trans = TransferDate.objects.filter(transactionHash=tr.hex())\r\n                        if not trans:\r\n                            return HttpResponse(json.dumps({\"result\": 0, \"errno\": 102, \"data\": {}}))\r\n                        trans = trans.values()[0]\r\n                        blockHeight = trans[\"blockNumber\"]\r\n                        timestamp = trans[\"timestamp\"]\r\n                        hash = trans[\"transactionHash\"]\r\n                        status = trans[\"status\"]\r\n                        transactions.append({\"blockHeight\": blockHeight,\r\n                                             \"timestamp\": timestamp,\r\n                                             \"hash\": hash,\r\n                                             \"status\": status})\r\n                    data.update({\"block_date\": {\"number\": number,\r\n                                                \"hash\": hash,\r\n                                                \"timestamp\": timestamp,\r\n                                                \"miner\": miner,\r\n                                                \"txs\": txs,\r\n                                                \"transactions\": transactions}})\r\n                else:\r\n                    detail_search = {\"result\": 0, \"errno\": 102, \"data\": {}}\r\n                    return HttpResponse(json.dumps(detail_search))\r\n            elif Web3.is_address(keyworld):\r\n                w3 = Web3(Web3.HTTPProvider('http://127.0.0.1:8545'))\r\n                amount_num = w3.eth.get_balance(keyworld)\r\n                if not amount_num:\r\n                    detail_search = {\"result\": 0, \"errno\": 102, \"data\": {}}\r\n                    return HttpResponse(json.dumps(detail_search))\r\n                amount = float(Web3.from_wei(amount_num, \"ether\"))\r\n                data.update({\"address_data\": {\"address\": keyworld,\r\n                                              \"balance\": amount}})\r\n            else:\r\n                trans = TransferDate.objects.filter(transactionHash=keyworld)\r\n                if not trans:\r\n                    detail_search = {\"result\": 0, \"errno\": 102, \"data\": {}}\r\n                    return HttpResponse(json.dumps(detail_search))\r\n                trans = trans.values()[0]\r\n                hash = trans[\"transactionHash\"]\r\n                status = trans[\"status\"]\r\n                blockNumber = trans[\"blockNumber\"]\r\n                timestamp = trans[\"timestamp\"]\r\n                Amount = float(Web3.from_wei(float(trans[\"value\"]), \"ether\"))\r\n                From = trans[\"From\"]\r\n                to = trans[\"to\"]\r\n                Fees = float(Web3.from_wei(float(float(trans[\"cumulativeGasUsed\"]) * float(trans[\"effectiveGasPrice\"])), 'ether'))\r\n                data.update({\"transactions_data\": {\"hash\": hash,\r\n                                                   \"status\": status,\r\n                                                   \"blockBumber\": blockNumber,\r\n                                                   \"timestamp\": timestamp,\r\n                                                   \"Amount\": Amount,\r\n                                                   \"from\": From,\r\n                                                   \"to\": to,\r\n                                                   \"Fees\": Fees}})\r\n            detail_search = {\"result\": 1, \"data\": data}\r\n        else:\r\n            detail_search = {\"result\": 0, \"errno\": 102, \"data\": {}}\r\n    else:\r\n        detail_search = {\"result\": 0, \"errno\": 102, \"data\": {}}\r\n    return HttpResponse(json.dumps(detail_search))\r\n\r\n\r\ndef blockDetail(req):\r\n    if req.method == \"GET\":\r\n        blockNumber = req.GET.get(\"block\", default=\"\")\r\n        if blockNumber:\r\n            chain = ChainDate.objects.filter(number=blockNumber)\r\n            if not chain:\r\n                return HttpResponse(json.dumps({\"result\": 0, \"errno\": 102, \"data\": {}}))\r\n            chain = chain.values()[0]\r\n            number = chain[\"number\"]\r\n            hash = chain[\"hash\"]\r\n            timestamp = chain[\"timestamp\"]\r\n            miner = chain[\"miner\"]\r\n            trs = eval(chain[\"transactions\"])\r\n            txs = len(trs)\r\n            block_data = {\"number\": number,\r\n                          \"hash\": hash,\r\n                          \"timestamp\": timestamp,\r\n                          \"miner\": miner,\r\n                          \"txs\": txs}\r\n            transactions = []\r\n            for tr in trs:\r\n                trans = TransferDate.objects.filter(transactionHash=tr.hex())\r\n                if not trans:\r\n                    return HttpResponse(json.dumps({\"result\": 0, \"errno\": 102, \"data\": {}}))\r\n                trans = trans.values()[0]\r\n                blockHeight = trans[\"blockNumber\"]\r\n                timestamp = trans[\"timestamp\"]\r\n                hash = trans[\"transactionHash\"]\r\n                status = trans[\"status\"]\r\n                transactions.append({\"blockHeight\": blockHeight,\r\n                                     \"timestamp\": timestamp,\r\n                                     \"hash\": hash,\r\n                                     \"status\": status})\r\n            block_detail = {\"result\": 1, \"data\": {\"block_data\": block_data, \"transactions\": transactions}}\r\n        else:\r\n            block_detail = {\"result\": 0, \"errno\": 102, \"data\": {}}\r\n    else:\r\n        block_detail = {\"result\": 0, \"errno\": 102, \"data\": {}}\r\n    return HttpResponse(json.dumps(block_detail))\r\n\r\n\r\ndef transactionDetail(req):\r\n    if req.method == \"GET\":\r\n        hash = req.GET.get(\"hash\", default=\"\")\r\n        if hash:\r\n            trans = TransferDate.objects.filter(transactionHash=hash)\r\n            if not trans:\r\n                return HttpResponse(json.dumps({\"result\": 0, \"errno\": 102, \"data\": {}}))\r\n            trans = trans.values()[0]\r\n            hash = trans[\"transactionHash\"]\r\n            status = trans[\"status\"]\r\n            blockNumber = trans[\"blockNumber\"]\r\n            timestamp = trans[\"timestamp\"]\r\n            value = float(trans[\"value\"])\r\n            Amount = float(Web3.from_wei(value, \"ether\"))\r\n            From = trans[\"From\"]\r\n            to = trans[\"to\"]\r\n            Fees = float(Web3.from_wei(float(float(trans[\"cumulativeGasUsed\"]) * float(trans[\"effectiveGasPrice\"])), 'ether'))\r\n            transactions = {\"transactions_data\": {\"hash\": hash,\r\n                                                   \"status\": status,\r\n                                                   \"blockBumber\": blockNumber,\r\n                                                   \"timestamp\": timestamp,\r\n                                                   \"Amount\": Amount,\r\n                                                   \"from\": From,\r\n                                                   \"to\": to,\r\n                                                   \"Fees\": Fees}}\r\n            transaction_detail = {\"result\": 1, \"data\": {\"transactions_data\": transactions}}\r\n        else:\r\n            transaction_detail = {\"result\": 0, \"errno\": 102, \"data\": {}}\r\n    else:\r\n        transaction_detail = {\"result\": 0, \"errno\": 102, \"data\": {}}\r\n    return HttpResponse(json.dumps(transaction_detail))\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/mydb/views.py b/mydb/views.py
+--- a/mydb/views.py	(revision d9ececcadb07a44cfa6c8ff3ea8450c131fcb241)
++++ b/mydb/views.py	(date 1684136314415)
+@@ -22,7 +22,6 @@
+     num = w3.eth.get_block('latest').number
+     if int(number) < int(num):
+         for c in range(int(number)+1, int(num)):
+-            print(c)
+             chainMsg = w3.eth.get_block(c)
+             chain = ChainDate()
+             chain.baseFeePerGas = chainMsg["baseFeePerGas"]
+@@ -55,12 +54,6 @@
+                         w3 = Web3(Web3.HTTPProvider('http://127.0.0.1:8545'))
+                         trs = w3.eth.get_transaction_receipt(tran)
+                         num = trs["blockNumber"]
+-                        #chain = TransferDate.objects.last()
+-                        #if not chain:
+-                        #    number = 0
+-                        #else:
+-                        #    number = chain.blockNumber
+-                        #if num > int(number):
+                         tr = w3.eth.get_transaction(tran)
+                         value = tr["value"]
+                         timestamp = w3.eth.get_block(num).timestamp
+@@ -96,7 +89,6 @@
+     for t in chain_data:
+         for tran in eval(t["transactions"]):
+             tof = TransferDate.objects.filter(transactionHash=tran.hex())
+-            print(tof)
+             if not tof:
+                 w3 = Web3(Web3.HTTPProvider('http://127.0.0.1:8545'))
+                 trs = w3.eth.get_transaction_receipt(tran)
+@@ -177,7 +169,6 @@
+             num = TransferDate.objects.filter(transactionHash=hash).values("id")[0]["id"]
+             n = TransferDate.objects.count()
+             trans = TransferDate.objects.values("transactionHash", "blockNumber", "timestamp","id").order_by("-id")[n-num+1:n-num+16]
+-           # trans = TransferDate.objects.values("transactionHash", "blockNumber", "timestamp").order_by("-id")[n*15:(n+1)*15]
+             for tran in trans:
+                 blockNumber = tran["blockNumber"]
+                 transactionHash = tran["transactionHash"]
