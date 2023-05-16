@@ -12,8 +12,12 @@ from hexbytes import HexBytes
 from django.db.models import Q
 
 
-def getChainMsg(req):
+def connectApi():
     w3 = Web3(Web3.HTTPProvider('http://127.0.0.1:8545'))
+    return w3
+
+def getChainMsg(req):
+    w3 = connectApi()
     chain = ChainDate.objects.last()
     if not chain:
         number = 0
@@ -51,7 +55,7 @@ def getChainMsg(req):
                 for tran in trs:
                     tof = TransferDate.objects.filter(transactionHash=tran.hex())
                     if not tof:
-                        w3 = Web3(Web3.HTTPProvider('http://127.0.0.1:8545'))
+                        w3 = connectApi()
                         trs = w3.eth.get_transaction_receipt(tran)
                         num = trs["blockNumber"]
                         tr = w3.eth.get_transaction(tran)
@@ -90,7 +94,7 @@ def getTransferMsg(req):
         for tran in eval(t["transactions"]):
             tof = TransferDate.objects.filter(transactionHash=tran.hex())
             if not tof:
-                w3 = Web3(Web3.HTTPProvider('http://127.0.0.1:8545'))
+                w3 = connectApi()
                 trs = w3.eth.get_transaction_receipt(tran)
                 num = trs["blockNumber"]
                 tr = w3.eth.get_transaction(tran)
@@ -201,7 +205,7 @@ def addressMsg(req):
     if req.method == "GET":
         address = req.GET.get("address", default="")
         if address:
-            w3 = Web3(Web3.HTTPProvider('http://127.0.0.1:8545'))
+            w3 = connectApi()
             amount_num = w3.eth.get_balance(address)
             amount = float(w3.from_wei(amount_num, "ether"))
             address_msg = {"result": 1,
@@ -282,7 +286,7 @@ def detailSearch(req):
                     detail_search = {"result": 0, "errno": 102, "data": {}}
                     return HttpResponse(json.dumps(detail_search))
             elif Web3.is_address(keyworld):
-                w3 = Web3(Web3.HTTPProvider('http://127.0.0.1:8545'))
+                w3 = connectApi()
                 amount_num = w3.eth.get_balance(keyworld)
                 if not amount_num:
                     detail_search = {"result": 0, "errno": 102, "data": {}}
